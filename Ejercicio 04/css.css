@@ -1,0 +1,11 @@
+.boton:hover  {
+    background-color: green;
+    color: white;
+}
+.boton::after {
+    content: 'Pasa por encima';
+}
+.boton::after {
+    content: '¡Echo!';
+}
+
