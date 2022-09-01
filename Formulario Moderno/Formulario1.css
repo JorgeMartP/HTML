@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap');
+*{
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    background-color: #161717;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: auto;
+}
+.google {
+    background-color: #1B73E9;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+    
+}
+.buttons {
+    align-self: center;
+    display: flex;
+    gap: 20px;
+}
+.google picture img {
+    width: 75%;
+    align-items: center;
+    
+}
+.google:hover {
+    opacity: 0.7;
+}
+.google picture {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.google span {
+    color: white;
+    padding: 15px;
+}
+.twitter {
+    color: white;
+    background-color: white;
+    width: 40px;
+    border-radius: 5px;
+    border-color: black;
+    cursor: pointer;
+}
+.twitter:hover {
+    opacity: 0.7;
+}
+.twitter picture img {
+    width: 50%;
+}
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    color: #e0e0e0;
+}
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: solid #e0e0e0;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 5px;
+    border: none;
+}
+label input { 
+    color: white;
+    font-weight: 500;
+    background-color:#212121;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 8px;
+    outline: none;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+label input:hover {
+    background-color:#454045;
+    border: solid #454045;
+    box-shadow: 0 0 4px rgba(248, 129, 99, 0.642);
+}
+label input:active {
+    background-color: rgba(248,129,99, 0.642);
+    color: rgba(248,129,99, 0.642) ;
+}
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+.checkbox input [type="checkbox"] {
+    width: 30px;
+}
+.checkbox span {
+    font-weight: 200;
+}
+.button-1 {
+    background-color: #EB4D89;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 10px 152px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-1:hover {
+    opacity: 0.75;
+}
