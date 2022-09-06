@@ -1,0 +1,14 @@
+.btn-modern{
+    background-color: darkturquoise;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+.btn-modern:hover {
+    background-color: turquoise;
+    transform: translateY(-5px);
+    border-bottom: 1.5px rgb(5, 133, 120);
+    color: black;
+    animation: 0.4s ease-in-out;
+}
